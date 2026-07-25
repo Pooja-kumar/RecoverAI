@@ -290,12 +290,12 @@ export default function RecoveryScreen({ result, onReset }) {
         <div className="space-y-10 py-10 animate-in fade-in duration-300 w-full max-w-5xl mx-auto">
           <div className="w-full text-center mb-6">
             <h1 className="font-headline-lg-mobile text-headline-lg-mobile text-on-surface mb-2">Need Support?</h1>
-            <p className="font-body-md text-on-surface-variant max-w-md mx-auto">
+            <p className="font-body-md text-on-surface-variant max-w-md mx-auto whitespace-normal break-words leading-relaxed">
               You don't have to face this alone. Let's reach out to someone you trust.
             </p>
           </div>
 
-          <div className="w-full grid grid-cols-1 gap-6">
+          <div className="w-full max-w-md mx-auto grid grid-cols-1 gap-6">
             {/* Trusted caregiver card */}
             <div className="bg-white border border-outline-variant/30 rounded-2xl p-6 flex items-center gap-6 shadow-sm w-full">
               <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-secondary/20 flex-shrink-0">
