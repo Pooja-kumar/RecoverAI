@@ -38,7 +38,7 @@ export default function App() {
     <div className="font-body-md text-on-background min-h-screen pb-32">
       {/* Top App Bar */}
       <header className="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/10">
-        <div className="flex items-center justify-between px-4 h-16 w-full max-w-container-max mx-auto">
+        <div className="flex items-center justify-between px-4 h-16 w-full max-w-5xl mx-auto">
           <div className="flex items-center gap-2">
             <span className="material-symbols-outlined text-primary text-[28px]" style={{ fontVariationSettings: "'FILL' 1" }}>
               healing
@@ -54,7 +54,7 @@ export default function App() {
       </header>
 
       {/* Main Content Container */}
-      <main className="pt-24 px-margin-mobile max-w-container-max mx-auto">
+      <main className="pt-24 px-6 max-w-5xl mx-auto">
         {screen === "HOME" && (
           <HomeScreen onSubmit={handleSubmit} />
         )}

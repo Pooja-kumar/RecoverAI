@@ -223,7 +223,7 @@ export default function RecoveryScreen({ result, onReset }) {
           </div>
 
           {/* Calming Recovery Card */}
-          <div ref={cardRef} className="w-full max-w-md bg-white p-6 rounded-xl shadow-lg border border-outline-variant/30 flex flex-col gap-6 text-left card-glass mx-auto">
+          <div ref={cardRef} className="w-full bg-white p-6 rounded-xl shadow-lg border border-outline-variant/30 flex flex-col gap-6 text-left card-glass mx-auto">
             <div className="flex justify-between items-start">
               <div className="flex items-center gap-4">
                 <div className="bg-secondary/10 p-2 rounded-lg">
@@ -295,7 +295,7 @@ export default function RecoveryScreen({ result, onReset }) {
             </p>
           </div>
 
-          <div className="w-full max-w-md mx-auto grid grid-cols-1 gap-6">
+          <div className="w-full grid grid-cols-1 gap-6">
             {/* Trusted caregiver card */}
             <div className="bg-white border border-outline-variant/30 rounded-2xl p-6 flex items-center gap-6 shadow-sm w-full">
               <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-secondary/20 flex-shrink-0">
