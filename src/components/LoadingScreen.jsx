@@ -28,7 +28,7 @@ export default function LoadingScreen() {
           <div className="w-16 h-16 bg-primary-fixed text-primary rounded-xl flex items-center justify-center mb-md status-pulse">
             <span className="material-symbols-outlined text-[40px]">healing</span>
           </div>
-          <h1 className="font-headline-lg text-headline-lg text-primary tracking-tight">RecoverAI</h1>
+          <h1 className="font-headline-lg text-headline-lg text-primary tracking-tight">Recovera</h1>
           <p className="font-body-md text-on-surface-variant mt-base">Preparing your space for recovery</p>
         </div>
 

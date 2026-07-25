@@ -43,7 +43,7 @@ export default function App() {
             <span className="material-symbols-outlined text-primary text-[28px]" style={{ fontVariationSettings: "'FILL' 1" }}>
               healing
             </span>
-            <h1 className="font-headline-md text-headline-md font-bold text-primary">RecoverAI</h1>
+            <h1 className="font-headline-md text-headline-md font-bold text-primary">Recovera</h1>
           </div>
           <button className="hover:opacity-80 transition-opacity scale-95 active:duration-150">
             <span className="material-symbols-outlined text-on-surface-variant text-[28px]">
@@ -100,10 +100,10 @@ export default function App() {
       {/* Footer */}
       <footer className="w-full flex flex-col items-center justify-center gap-base text-center py-lg mt-lg">
         <div className="flex gap-md mb-xs">
-          <a className="font-body-md text-body-md text-tertiary hover:text-primary transition-colors" href="#">Privacy Policy</a>
-          <a className="font-body-md text-body-md text-tertiary hover:text-primary transition-colors" href="#">Support</a>
+          <a className="font-body-md text-body-md text-tertiary hover:text-primary transition-colors" href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a className="font-body-md text-body-md text-tertiary hover:text-primary transition-colors" href="#" target="_blank" rel="noopener noreferrer">Support</a>
         </div>
-        <p className="font-body-md text-body-md text-secondary">RecoverAI • Your path to steady recovery</p>
+        <p className="font-body-md text-body-md text-secondary">Recovera • Your path to steady recovery</p>
       </footer>
 
       {/* Bottom Nav Bar (Mobile layout indicator matching Stitch layout) */}

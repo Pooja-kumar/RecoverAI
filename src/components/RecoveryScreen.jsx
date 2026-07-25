@@ -52,7 +52,7 @@ export default function RecoveryScreen({ result, onReset }) {
           backgroundColor: "#f9f9ff"
         });
         const link = document.createElement("a");
-        link.download = "RecoverAI_RecoveryCard.png";
+        link.download = "Recovera_RecoveryCard.png";
         link.href = canvas.toDataURL("image/png");
         link.click();
       } catch (err) {
@@ -255,7 +255,7 @@ export default function RecoveryScreen({ result, onReset }) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               <div className="absolute bottom-2 right-2">
-                <span className="text-white/80 font-headline-md text-[14px]">RecoverAI</span>
+                <span className="text-white/80 font-headline-md text-[14px]">Recovera</span>
               </div>
             </div>
 

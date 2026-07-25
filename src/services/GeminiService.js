@@ -29,7 +29,7 @@ export async function generateRecoveryPlan({ urgeLevel, situationText, imageBase
   const modelName = "gemini-3.5-flash";
 
   const systemInstruction = `
-You are a compassionate, structured recovery support assistant named RecoverAI.
+You are a compassionate, structured recovery support assistant named Recovera.
 Your goal is to provide a calm, human-centered crisis intervention experience that someone can immediately understand during a moment of distress.
 
 CRITICAL PHRASING RULES:

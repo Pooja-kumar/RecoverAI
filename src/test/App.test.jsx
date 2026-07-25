@@ -26,7 +26,7 @@ vi.mock("../services/GeminiService", () => ({
   })
 }));
 
-describe("RecoverAI App Workflow", () => {
+describe("Recovera App Workflow", () => {
   beforeEach(() => {
     vi.clearAllMocks();
   });
